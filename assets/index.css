@@ -16,6 +16,7 @@ h2 {
 }
 
 button {
+  font-family: 'Nunito', sans-serif;
   background-color: #242424;
   flex: 1;
   font-size: 6rem;
