@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="shortcut icon" href="./icons/favicon.ico" type="image/x-icon">
+    <title>Jogo da Veia</title>
+  </head>
+  <body>
+    <div id="container">
+      <h2>Vez do Jogador: <span id="jogador">O</span></h2>
+      <div id="card">
+        <div class="square">
+          <button></button>
+          <button></button>
+          <button></button>
+        </div>
+        <div class="square">
+          <button></button>
+          <button></button>
+          <button></button>
+        </div>
+        <div class="square">
+          <button></button>
+          <button></button>
+          <button></button>
+        </div>
+      </div>
+    </div>
+    <div id="modalBlur">
+        <div id="modalWinner" class="show-animation">
+          <h3>
+            Parabéns! O vencedor do jogo é o jogador: 
+          </h3>
+          <button id="restart">Reiniciar</button>
+        </div>
+    </div>
+  </body>
+  <script src="./assets/index.js"></script>
+</html>
